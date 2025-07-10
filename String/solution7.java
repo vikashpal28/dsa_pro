@@ -3,7 +3,7 @@ public class solution7 {
         StringBuilder ecoding = new StringBuilder();
         int count = 1;
         for(int i =1;i<message.length();i++){
-            if(message.charAt(i) == message.charAt(-1)){
+            if(message.charAt(i) == message.charAt(i-1)){
                 count++;
             }
             else{
