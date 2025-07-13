@@ -7,7 +7,8 @@ public class solution7 {
                 count++;
             }
             else{
-                ecoding.append(message.charAt(-1)).append(count);
+                ecoding.append(message.charAt(i-1)).append(count);
+                count = 1;
             }
         }
         ecoding.append(message.charAt(message.length()-1)).append(count);
