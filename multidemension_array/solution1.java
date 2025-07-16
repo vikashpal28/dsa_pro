@@ -1,4 +1,3 @@
-package multidemension_array;
 
 import java.util.ArrayList;
 import java.util.Arrays;

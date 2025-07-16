@@ -1,4 +1,4 @@
-package multidemension_array;
+
 
 public class solution2 {
 
