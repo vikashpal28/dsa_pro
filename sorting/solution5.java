@@ -7,7 +7,7 @@ public class solution5 {
      public static void sort012(int[] arr)
     {
 
-        // simpl method
+        // simple method
 
         //Write your code here
         // int count1 = 0, count2 = 0, count3 = 0;
