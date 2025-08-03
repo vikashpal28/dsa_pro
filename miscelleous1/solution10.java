@@ -38,7 +38,7 @@ public class solution10 {
             // System.out.println(total_length);
          
         }
-        throw new IllegalArgumentException("K is larger than the decompressed string length.");
+        
 
     }
     public static void main(String[] args) {
