@@ -68,4 +68,9 @@ public class solution {
 
     }
 
+    public void generator(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'generator'");
+    }
+
 }
