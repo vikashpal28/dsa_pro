@@ -3,7 +3,6 @@ package Intermediate;
 import java.util.ArrayList;
 import java.util.List;
 
-import miscelleous1.soulution17;
 
 public class solution4 {
     public void generator(int n){
