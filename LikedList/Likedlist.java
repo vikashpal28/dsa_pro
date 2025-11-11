@@ -19,6 +19,12 @@ public class Likedlist {
             current = current.next;
         }
         System.out.println("null");
+        
+    }
+    public static void printlistRecursive(Node head){
+       if(head == null) return;
+       System.out.print(head.data+"->");
+       printlistRecursive(head.next); 
     }
 
 
@@ -40,6 +46,7 @@ public class Likedlist {
         c.next = d;
         d.next = e;
         printlist(a);
+        printlistRecursive(a);
 
     }
 }
